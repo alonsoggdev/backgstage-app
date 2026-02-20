@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.5;
+}
+
+:root {
+    --color-primary: #5b6cff;
+    --color-primary-dark: #3e4bff;
+    --color-danger: #e53935;
+    --color-border: #e0e0e0;
+    --color-bg-card: #ffffff;
+
+    --radius: 8px;
+    --transition: 0.2s ease;
+}
